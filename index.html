@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+
+		<link rel="stylesheet" href="style.css" />
+
+		<!-- Google Fonts -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<img
+			src="https://gist.githubusercontent.com/maykbrito/0acdf4ce919838ffed50915a31fc5b23/raw/6f4dd01ec3116428ec4c99255944cb9ac7927590/cristal-ball.svg"
+			alt="Imagem de uma bola de cristal"
+		/>
+		<h1>Vou revelar seu destino!</h1>
+		<p><i>Clique em fazer pergunta pra que seu destino seja revelado</i></p>
+		<input type="text" id="question" placeholder="Digite sua pergunta" />
+		<button class="btn" onClick="getQuestion()">Fazer Pergunta</button>
+
+		<!-- Resposta dinâmica realizada pelo JS -->
+		<p id="q-show"></p>
+		<h3 id="answer"></h3>
+
+		<script src="main.js"></script>
+	</body>
+</html>
